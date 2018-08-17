@@ -11,7 +11,7 @@ const placeDetail = props => {
                     source={props.selectedPlace.image}
                     style={{ height: 250, width: '100%' }}
                 />
-                <Text style={{ fontWeight: 'bold', fontSize: 24 }}>{props.selectedPlace.value}</Text>
+                <Text style={{ fontWeight: 'bold', fontSize: 24 }}>{props.selectedPlace.name}</Text>
             </View>
         );
     }
