@@ -4,13 +4,13 @@ import configureStore from './src/store/configureStore';
 import Places from './src/components/Places/Places';
 
 export default class App extends Component {
-  render() {
-    const store = configureStore();
+  // render() {
+  //   const store = configureStore();
 
-    return (
-      <Provider store={store} >
-        <Places />
-      </Provider>
-    );
-  }
+  //   return (
+  //     <Provider store={store} >
+  //       <Places />
+  //     </Provider>
+  //   );
+  // }
 }
